@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Inclusive+Sans:ital@0;1&family=Kumbh+Sans:wght@100..900&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(189, 206, 207);
+    min-height: 100vh;  
+    font-family: "Kumbh Sans";
+}
+
+body h1{
+    font-size: 50px;
+}
+
+.sec{
+    background-color: rgb(189, 189, 189);
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    border-radius: 50px, 20px, 20px, 50px;
+}
