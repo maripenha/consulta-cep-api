@@ -1,0 +1,32 @@
+{
+    "endereco": [
+         {
+        "cep": "03642000",
+        "logradouro": "Rua José Flávio",
+        "bairro": "Penha de França",
+        "cidade": "São Paulo",
+        "uf": "SP"
+         },
+         {
+        "cep": "03574110",
+        "logradouro": "Rua Embiú",
+        "bairro": "Jardim Santa Maria",
+        "cidade": "São Paulo",
+        "uf": "SP"
+         },
+         {
+        "cep": "09810390",
+        "logradouro": "Rua das Orquídeas",
+        "bairro": "Assunção",
+        "cidade": "São Bernardo do Campo",
+        "uf": "SP"
+         },
+         {
+        "cep": "03642120",
+        "logradouro": "Rua Mampituba",
+        "bairro": "Penha de França",
+        "cidade": "São Paulo",
+        "uf": "SP"
+         }
+    ]
+}

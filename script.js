@@ -61,3 +61,33 @@ function limpaForm() {
     })
     
 }
+
+// function consultaEndereco(logradouro, bairro, cidade) {
+//     const enderecoFormatado = encodeURIComponent(`${logradouro},${bairro},${cidade}`); // Combina logradouro, bairro e cidade
+//     const requisicao = new Request(`https://viacep.com.br/ws/${enderecoFormatado}/json`, {
+//         "method": "GET",
+//         "headers": {
+//            "Content-type": "application/json"
+//         }
+//     });
+//     fetch(requisicao)
+//     .then(resposta => resposta.json())
+//     .then(resposta => {
+//         if (!("erro" in resposta)) {
+//             document.querySelector("#cep").value = resposta.cep;
+//             document.querySelector("#uf").value = resposta.uf;
+//         } else {
+//             limparFormulario();
+//             window.alert("Endereço não localizado");
+//             // Limpa os campos
+//             document.querySelector("#cep").value = "";
+//             document.querySelector("#uf").value = "";
+//         }
+//     });
+//  }
+//  function limparFormulario() {
+//     document.querySelectorAll("input:not(#logradouro, #bairro, #cidade)").forEach(input => {
+//         input.value = "";
+//     });
+//  }
+
