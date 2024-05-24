@@ -62,6 +62,21 @@ function limpaForm() {
     
 }
 
+function cadastraCEP(enderecoCompleto){
+    
+    fetch('https://humble-rotary-phone-wrrw5wx4rr6gcvq9-3000.app.github.dev/endereco',{
+    "method": "POST",
+    "headers": {
+        "Content-type": "application/json"
+    },
+    "body": JSON.stringify(enderecoCompleto)
+    }).then(resposta => {
+        if (resposta.ok) window.alert('Endereço cadastrado com sucesso :)')
+            else window.alert('Erro ao cadastrar endereço :(' +resposta.status)
+
+    })
+}
+
 // function consultaEndereco(logradouro, bairro, cidade) {
 //     const enderecoFormatado = encodeURIComponent(`${logradouro},${bairro},${cidade}`); // Combina logradouro, bairro e cidade
 //     const requisicao = new Request(`https://viacep.com.br/ws/${enderecoFormatado}/json`, {

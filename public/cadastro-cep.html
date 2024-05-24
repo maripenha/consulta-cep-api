@@ -10,12 +10,12 @@
 </head>
 <body>
     <section class="sec">
-    <h1>Consulta de CEP</h1>
+    <h1>Cadastro de CEP</h1>
     <section>
         <form action="" class="div">
         <div class="controle-form">
             <label for="cep" >CEP:</label>
-            <input type="text" id="cep" placeholder="Ex.: 01310930" onblur="consultaCEP(this.value)">
+            <input type="text" id="cep" placeholder="Ex.: 01310930">
         </div>
          
         <div class="controle-form">
@@ -37,17 +37,27 @@
             <label for="uf">UF:</label>
             <input type="text" id="uf">
         </div>
+
+        <div>
+            <button type="button" id="btCadastrar" class="button">Cadastrar</button>
+            <button type="reset" class="button">Limpar</button>
+        </div>
+        
         </form>
     </section>
     </section>
         <script  src="script.js"></script>
-        <!-- <script>
-            
-            document.querySelector('#cep').addEventListener('blur, () => {
-                const cep = document.querySelector('#cep').value;
-                consultaCEP(cep);
-            }
-        </script> -->
 
+        <script>
+            document.querySelector('#btCadastrar').addEventListener('click', () => {
+                
+                const enderecoCompleto = {
+                    "cep": document.querySelector('#cep').value,
+                    "logradouro": document.querySelector('#logradouro').value,
+                }
+
+                cadastraCEP(enderecoCompleto);
+        })
+        </script>
 </body>
 </html>

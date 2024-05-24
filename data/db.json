@@ -1,32 +1,51 @@
 {
-    "endereco": [
-         {
-        "cep": "03642000",
-        "logradouro": "Rua José Flávio",
-        "bairro": "Penha de França",
-        "cidade": "São Paulo",
-        "uf": "SP"
-         },
-         {
-        "cep": "03574110",
-        "logradouro": "Rua Embiú",
-        "bairro": "Jardim Santa Maria",
-        "cidade": "São Paulo",
-        "uf": "SP"
-         },
-         {
-        "cep": "09810390",
-        "logradouro": "Rua das Orquídeas",
-        "bairro": "Assunção",
-        "cidade": "São Bernardo do Campo",
-        "uf": "SP"
-         },
-         {
-        "cep": "03642120",
-        "logradouro": "Rua Mampituba",
-        "bairro": "Penha de França",
-        "cidade": "São Paulo",
-        "uf": "SP"
-         }
-    ]
+  "endereco": [
+    {
+      "cep": "03642000",
+      "logradouro": "Rua José Flávio",
+      "bairro": "Penha de França",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "id": "426e"
+    },
+    {
+      "cep": "03574110",
+      "logradouro": "Rua Embiú",
+      "bairro": "Jardim Santa Maria",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "id": "3d50"
+    },
+    {
+      "cep": "09810390",
+      "logradouro": "Rua das Orquídeas",
+      "bairro": "Assunção",
+      "cidade": "São Bernardo do Campo",
+      "uf": "SP",
+      "id": "0e39"
+    },
+    {
+      "cep": "03642120",
+      "logradouro": "Rua Mampituba",
+      "bairro": "Penha de França",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "id": "de40"
+    },
+    {
+      "id": "7544",
+      "cep": "03642000",
+      "logradouro": ""
+    },
+    {
+      "id": "9fd1",
+      "cep": "",
+      "logradouro": ""
+    },
+    {
+      "id": "583f",
+      "cep": "03642000",
+      "logradouro": ""
+    }
+  ]
 }

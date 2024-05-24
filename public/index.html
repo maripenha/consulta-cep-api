@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="script.js">
+    <link rel="script" href="reset.css">
+</head>
+<body>
+    <section class="sec">
+    <h1>Consulta de CEP</h1>
+    <section>
+        <form action="" class="div">
+        <div class="controle-form">
+            <label for="cep" >CEP:</label>
+            <input type="text" id="cep" placeholder="Ex.: 01310930" onblur="consultaCEP(this.value)">
+        </div>
+         
+        <div class="controle-form">
+            <label for="logradouro">Logradouro:</label>
+            <input type="text" id="logradouro">
+        </div>
+
+        <div class="controle-form">
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro">
+        </div>
+
+        <div class="controle-form">
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade">
+        </div>
+
+        <div class="controle-form">
+            <label for="uf">UF:</label>
+            <input type="text" id="uf">
+        </div>
+
+        <a href="cadastro-cep.html">Cadastrar um novo CEP</a>
+        
+        </form>
+    </section>
+    </section>
+        <script  src="script.js"></script>
+        <!-- <script>
+            
+            document.querySelector('#cep').addEventListener('blur, () => {
+                const cep = document.querySelector('#cep').value;
+                consultaCEP(cep);
+            }
+        </script> -->
+
+</body>
+</html>
